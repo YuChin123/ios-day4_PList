@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>abcd</string>
+		<key>phoneNumber</key>
+		<string>0198733528</string>
+		<key>comapny</key>
+		<string>iTrain</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>auntie</string>
+		<key>phoneNumber</key>
+		<string>012462801</string>
+		<key>comapny</key>
+		<string>iTrain</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>uncle</string>
+		<key>phoneNumber</key>
+		<string>018366122</string>
+		<key>comapny</key>
+		<string>iTrain</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yc</string>
+		<key>phoneNumber</key>
+		<string>0123468</string>
+		<key>comapny</key>
+		<string>iTrain</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>nicki</string>
+		<key>phoneNumber</key>
+		<string>01249662221</string>
+		<key>comapny</key>
+		<string>kkdaya</string>
+	</dict>
+</array>
+</plist>

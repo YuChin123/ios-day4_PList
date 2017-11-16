@@ -12,6 +12,9 @@
 		D57E29421FBD1F320076049A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57E29401FBD1F320076049A /* Main.storyboard */; };
 		D57E29441FBD1F320076049A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57E29431FBD1F320076049A /* Assets.xcassets */; };
 		D57E29471FBD1F320076049A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57E29451FBD1F320076049A /* LaunchScreen.storyboard */; };
+		D57E294F1FBD1FAD0076049A /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = D57E294E1FBD1FAD0076049A /* Property List.plist */; };
+		D57E29511FBD285B0076049A /* StudentPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = D57E29501FBD285B0076049A /* StudentPlist.plist */; };
+		D5F721501FBD31DE00858C6D /* studentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F7214F1FBD31DE00858C6D /* studentTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D57E29431FBD1F320076049A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D57E29461FBD1F320076049A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D57E29481FBD1F320076049A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57E294E1FBD1FAD0076049A /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		D57E29501FBD285B0076049A /* StudentPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StudentPlist.plist; sourceTree = "<group>"; };
+		D5F7214F1FBD31DE00858C6D /* studentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,8 @@
 		D57E29301FBD1F310076049A = {
 			isa = PBXGroup;
 			children = (
+				D5F7214F1FBD31DE00858C6D /* studentTableViewController.swift */,
+				D57E29501FBD285B0076049A /* StudentPlist.plist */,
 				D57E293B1FBD1F320076049A /* A PLiist */,
 				D57E293A1FBD1F320076049A /* Products */,
 			);
@@ -57,6 +65,7 @@
 				D57E293C1FBD1F320076049A /* AppDelegate.swift */,
 				D57E293E1FBD1F320076049A /* ViewController.swift */,
 				D57E29401FBD1F320076049A /* Main.storyboard */,
+				D57E294E1FBD1FAD0076049A /* Property List.plist */,
 				D57E29431FBD1F320076049A /* Assets.xcassets */,
 				D57E29451FBD1F320076049A /* LaunchScreen.storyboard */,
 				D57E29481FBD1F320076049A /* Info.plist */,
@@ -125,7 +134,9 @@
 			files = (
 				D57E29471FBD1F320076049A /* LaunchScreen.storyboard in Resources */,
 				D57E29441FBD1F320076049A /* Assets.xcassets in Resources */,
+				D57E294F1FBD1FAD0076049A /* Property List.plist in Resources */,
 				D57E29421FBD1F320076049A /* Main.storyboard in Resources */,
+				D57E29511FBD285B0076049A /* StudentPlist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +149,7 @@
 			files = (
 				D57E293F1FBD1F320076049A /* ViewController.swift in Sources */,
 				D57E293D1FBD1F320076049A /* AppDelegate.swift in Sources */,
+				D5F721501FBD31DE00858C6D /* studentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
